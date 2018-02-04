@@ -1,0 +1,25 @@
+{
+    "name": "inkmyweb/imw-slider",
+    "description": "Slider component for WordPress themes",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sidsector9",
+            "email": "siddharth.thevaril@gmail.com"
+        }
+    ],
+    "repositories":[
+        {
+            "type":"composer",
+            "url":"https://wpackagist.org"
+        }
+    ],
+    "require": {
+        "wpackagist-plugin/cmb2": "2.3.0"
+    },
+    "extra": {
+        "installer-paths": {
+            "vendor/{$name}/": ["type:wordpress-plugin", "type:wordpress-theme"]
+        }
+    }
+}
