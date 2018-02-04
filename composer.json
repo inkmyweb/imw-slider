@@ -21,5 +21,8 @@
         "installer-paths": {
             "vendor/{$name}/": ["type:wordpress-plugin", "type:wordpress-theme"]
         }
+    },
+    "autoload": {
+        "files": ['imw-slider.php']
     }
 }
